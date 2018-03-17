@@ -1,0 +1,33 @@
+{
+  "name": "shopback-test",
+  "version": "1.0.1",
+  "description": "A Node.js package scan a HTML content and show all of SEO defects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha .\\test\\*\\*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haiphamminh/shopback-test.git"
+  },
+  "keywords": [
+    "shopback"
+  ],
+  "author": "Hai Pham <hai.phamminh86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haiphamminh/shopback-test/issues"
+  },
+  "homepage": "https://github.com/haiphamminh/shopback-test#readme",
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "sinon": "^4.4.6"
+  }
+}
